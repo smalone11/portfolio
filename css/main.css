@@ -1,0 +1,67 @@
+body {
+    font-family: 'Verdana', sans-serif;
+    margin-top: 5px;
+
+}
+
+.h1 {
+  font-weight: bold;
+  margin-bottom: 4px;
+}
+
+.h2 {
+  font-weight: bold;
+  color: #AAAAAA;
+}
+
+.h3 {
+  font-size: 25px;
+  margin-top: 10px;
+}
+
+.h4 {
+  font-size: 17px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+.h5 {
+  margin-top: 2px;
+}
+
+hr {
+  margin-top: 10px;
+  border-color: #BCBBBB;
+  border-width: 5px;
+}
+
+.body-pic {
+  max-width: 100%;
+}
+
+.project-spacing {
+  margin-bottom: 20px;
+}
+
+@media only screen and (max-width: 400px) {
+  .col-xs-6 {
+    width: 100%;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .header-pic {
+    display: none;
+  }
+  .header-text {
+    text-align: center;
+  }
+}
+
+@media only screen and (min-width: 991px) {
+  .container {
+    width: 991px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
