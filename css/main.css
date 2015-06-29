@@ -1,7 +1,6 @@
 body {
     font-family: 'Verdana', sans-serif;
     margin-top: 5px;
-
 }
 
 .h1 {
@@ -11,7 +10,7 @@ body {
 
 .h2 {
   font-weight: bold;
-  color: #AAAAAA;
+  color: #aaa;
 }
 
 .h3 {
@@ -21,8 +20,8 @@ body {
 
 .h4 {
   font-size: 17px;
-  margin-top: 0px;
-  margin-bottom: 0px;
+  margin-top: 0;
+  margin-bottom: 0;
 }
 
 .h5 {
@@ -31,7 +30,7 @@ body {
 
 hr {
   margin-top: 10px;
-  border-color: #BCBBBB;
+  border-color: #bbb;
   border-width: 5px;
 }
 
@@ -43,8 +42,8 @@ hr {
   margin-bottom: 20px;
 }
 
-@media only screen and (max-width: 400px) {
-  .col-xs-6 {
+@media only screen and (max-width: 500px) {
+  .col-xs-4 {
     width: 100%;
   }
 }
