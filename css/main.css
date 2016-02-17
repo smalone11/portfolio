@@ -1,30 +1,30 @@
 body {
-    font-family: 'Verdana', sans-serif;
-    margin-top: 5px;
+  font-family: 'Verdana', sans-serif;
+  margin-top: 5px;
 }
 
-.h1 {
+h1 {
   font-weight: bold;
   margin-bottom: 4px;
 }
 
-.h2 {
+h2 {
   font-weight: bold;
   color: #aaa;
 }
 
-.h3 {
+h3 {
   font-size: 25px;
   margin-top: 10px;
 }
 
-.h4 {
+h4 {
   font-size: 17px;
   margin-top: 0;
   margin-bottom: 0;
 }
 
-.h5 {
+h5 {
   margin-top: 2px;
 }
 
@@ -32,6 +32,10 @@ hr {
   margin-top: 10px;
   border-color: #bbb;
   border-width: 5px;
+}
+
+.header-text {
+  text-align: right;
 }
 
 .body-pic {
@@ -46,14 +50,30 @@ hr {
   .col-xs-4 {
     width: 100%;
   }
+
+  h1 {
+    font-size: 30px;
+  }
+
+  h4 {
+    font-size: 14px;
+  }
 }
 
 @media only screen and (max-width: 600px) {
   .header-pic {
     display: none;
   }
+
   .header-text {
+    width: 100%;
     text-align: center;
+  }
+}
+
+@media only screen and (max-width: 990px) {
+  h3 {
+    font-size: 20px;
   }
 }
 
